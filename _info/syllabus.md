@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 8, Winter 2018"
+title: "Syllabus, CMPSC 32, Spring 2018"
 layout: handout
 ready: true
 ---
@@ -7,7 +7,7 @@ ready: true
 Basic Facts
 -----------
 
-* **Course Web Site**: <https://ucsb-cs8-w18-wang.github.io/>
+* **Course Web Site**: <https://ucsb-cs32-s18.github.io/>
 * **Instructor**:  [Richert Wang](http://www.cs.ucsb.edu/~richert)
    * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/class/jc6t3qhjbc2pb) for course related communication.
 * **Lecture**: TuTh 2:00pm-3:15pm BUCHN1920, ATTENDANCE REQUIRED.

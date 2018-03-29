@@ -1,10 +1,10 @@
 ---
-title: "CS8 Open Lab Hours, W18"
+title: "CS32 Open Lab Hours, S18"
 layout: default
 ready: true
 ---
 
-# CS8 Open Lab Hours, W18
+# CS32 Open Lab Hours, S18
 
 <style>
 iframe { width: 100%; height: 1400px; overflow: scroll; }  
