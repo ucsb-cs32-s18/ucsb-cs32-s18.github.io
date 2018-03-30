@@ -1,5 +1,5 @@
 ---
-title: CS8, Winter 2018, richert
+title: CS32, Spring 2018, richert
 ---
 
 # {{site.course}}, {{site.quarter}}

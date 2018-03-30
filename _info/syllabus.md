@@ -9,26 +9,29 @@ Basic Facts
 
 * **Course Web Site**: <https://ucsb-cs32-s18.github.io/>
 * **Instructor**:  [Richert Wang](http://www.cs.ucsb.edu/~richert)
-   * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/class/jc6t3qhjbc2pb) for course related communication.
-* **Lecture**: TuTh 2:00pm-3:15pm BUCHN1920, ATTENDANCE REQUIRED.
+   * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/ucsb/spring2018/cmpsc32/home) for course related communication.
+* **Lecture**: TuTh 12:30pm-1:45pm CHEM 1171, ATTENDANCE REQUIRED.
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
-* **Lab** (50 minute discussion section): Wednesdays 9am, 10am, 11am , 12pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
-* **Office Hours**: Tuesday 3:30pm - 4:30pm, Thursday 12pm - 1pm in HFH 1151
+* **Lab** (50 minute lab section): Wednesdays 12pm, 1pm, 2pm, 3pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Office Hours**: Tuesday 11:00am - 12:00pm, Thursday 2:00pm - 3:00pm in HFH 1151
 
 # Required Resources
 
-* Textbook: "Introduction to Computing Using Python" - Ljubomir Perkovic, 2nd edition
+* Textbooks:
+  * "Problem Solving with C++" - Walter Savitch, 9th edition
+  * "Data Structures and Other Objects Using C++" - Michael Main & Walter Savitch, 4th edition
+  * "CS 32 Reader", UCEN
+
 
 Official UCSB Catalog Description
 ---------------------------------
 
 <div style="background-color:#eee; border: 8px inset #333; font-size:90%; margin:1em; width:45em; padding: 0.5em;" markdown="1">
 
-CMPSC 8: Introduction to Computer Science
-
-Not open for credit to students who have completed Computer Science 16 or Engineering 3.
-
-Introduction to computer program development for students with little to no programming experience. Basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, and documentation.
+CMPSC 32: Object Oriented Design and Implementation
+**Prerequisite:** Computer Science 24 with a grade of C or better.
+**Repeat Comments:** Computer Science 32 is a legal repeat for Computer Science 60.
+Advanced topics in object-oriented computing. Topics include encapsulation, data hiding, inheritance, polymorphism, compilation, linking and loading, memory management, and debugging; recent advances in design and development tools, practices, libraries, and operating system support.
 
 </div>
 
@@ -38,7 +41,7 @@ Introduction to computer program development for students with little to no prog
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
    * On most homework assignments you may collaborate with at most one other person (who must be named).
 * Attendance is required at all lectures and labs (discussion sections).
-  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absenses (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
+  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest two grades from everyone's homework. This way, absenses (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * <strong>You</strong> must turn in your homework in lecture the day that it is due.
 * We will use the [gradescope system](https://gradescope.com) this quarter. More instructions on gradescope will be given in lecture and lab assignments.
 * Any regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
@@ -51,82 +54,13 @@ You may NOT:
 
 ## What this course is about 
 
-This class serves as an <strong>introduction to programming and computer science</strong>. We will use the Python language and write Python programs throughout the course. We will be using Python 3 in the class. The Python Interpreter can be downloaded for free from Python's download page (http://python.org/downloads/). I encourage everyone to install Python on their local computer in order to practice programming in your own time.
+This class serves as a continuation of C++ concepts covered in CMPSC 16 and CMPSC 24. We will explore more features of C++ such as the Standard Template Library (stl) and Object Oriented programming concepts such as inheritance and polymorphism. We'll cover certain topics in depth and understand how C++ constructs behave in memory. We'll also discuss more on computer system concepts such as the UNIX operating sytem, processes, and threads.
 
-If you find yourself working on a computer that doesn't have Python installed, you can run simple Python code (along with several other languages) on the web with tools such as [IDEOne](https://ideone.com). This is not a requirement for the course, but you may find it to be a useful tool.
+Since this course covers a variety of special topics, we will use three text books covering select chapters in each book. Lectures, labs, and homework will have some overlap, but each component of the course is used for students to explore and practice C++ concepts in various angles. The further you progress in your CS education, you will realize how important it is to extract information from various sources since it's rare when everything you need to know is within a single source.
 
-Learning how to program requires <strong>A LOT</strong> of practice like learning any new skill. Making mistakes is an essential part of learning as long as you learn from them! Questions like "I wonder what will happen if I do this..." or "How will Python behave in this case..." is a great way to investigate and observe the functionality and limitations of a programming language (there are many programming languages available to software developers and each have their specific pros and cons that may or may not be the best choice for the problems you are trying to solve).
+Learning the details of programming requires <strong>A LOT</strong> of practice, like learning any new skill. Making mistakes is an essential part of learning as long as you learn from them! Questions like "I wonder what will happen if I do this..." or "How will C++ behave in this case..." is a great way to investigate and observe the functionality and limitations of a programming language (there are many programming languages available to software developers and each have their specific pros and cons that may or may not be the best choice for the problems you are trying to solve).
 
 I find the best way to practice is to <strong>rapid prototype</strong> constantly. Writing simple snippets of code to test and confirm your understanding allows you to 1) practice typing out code, which makes you more comfortable with the language and 2) solidify your understanding of the specific behavior of the programming language functionality.
-
-Programming is the study of <strong>algorithms</strong>, i.e. step-by-step instructions telling the computer what it needs to do. There are <strong>MANY</strong> algorithms that can solve a problem and it's important to consider the computational time, memory space, and correctness of the algorithms you create.
-
-## Why Python?
-
-* Python is a popular choice for introductory programming courses since it is easier to learn than C/C++ and Java.
-* Python is a largely supported language and is widely used in academia and industry.
-* There is a lot of support for Python that comes with the language itself and 3rd party libraries other developers created that you can use for many types of applications.
-
-# What you need to learn to become a skilled beginning level programmer
-
-So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
-
-<table border="1" cellspacing="1" cellpadding="1" id="topicTable">
-  <tr>
-    <td><ul class="style11">
-      <li>Problem solving
-        <ul>
-            <li>breaking down a problem into a sequence of steps</li>
-          <li>abstracting specific problems into general ones<br />
-            and finding general solutions</li>
-        </ul>
-      </li>
-      <li>Memory concepts
-        <ul>
-            <li>variables, primitive vs. reference variables, name, type, value</li>
-          <li>assignment statements</li>
-          <li>scope of variables</li>
-        </ul>
-      </li>
-      <li>Control structures
-        <ul>
-            <li>for loops, if/else, while loops</li>
-        </ul>
-      </li>
-      <li>Lists in Python (similar to arrays in other languages)
-        <ul>
-            <li>index vs. value, finding sum, min, max, average, count of elements matching some condition, making a new list of elements containing only those that match some condition</li>
-        </ul>
-      </li>
-    </ul>    </td>
-    <td><ul class="style11">
-      <li>Functions
-        <ul>
-            <li>function call vs. function definition</li>
-          <li>formal vs. actual parameters (arguments)</li>
-        </ul>
-      </li>
-      <li>Testing
-        <ul>
-            <li>How to test your code</li>
-        </ul>
-      </li>
-      <li>Input/output concepts
-        <ul>
-            <li>Writing to the terminal</li>
-          <li>Reading from the keyboard</li>
-          <li>Reading and writing to files</li>
-          <li>Neatly formatting output</li>
-        </ul>
-      </li>
-      <li>Program style
-        <ul>
-            <li>How to write code that other people can read and understand</li>
-        </ul>
-      </li>
-    </ul>    </td>
-  </tr>
-</table>
 
 # Course Grades
 
@@ -134,24 +68,24 @@ Letter grades will be determined by the end of the course after all labs, homewo
 
 Your course grade will be determined as follows:
 
-| Grade Item          				| Percentage of Final Grade |
+| Grade Item                        | Percentage of Final Grade |
 |-----------------------------------|---------------------------|
-| Midterm 1 (Thurs. 2/8)          	| 15 %                      |
-| Midterm 2 (Thurs. 3/1)          	| 15 %                      | 
+| Midterm 1 (Thurs. 2/8)            | 15 %                      |
+| Midterm 2 (Thurs. 3/1)            | 15 %                      | 
 | Final (Tues. 3/20, 4pm - 7pm)     | 30 %                      |
-| Homeworks           				| 10 %                      |
-| Labs                				| 30 %                      | 
+| Homeworks                         | 10 %                      |
+| labs                              | 30 %                      | 
 
-In general, homework(s) will be assigned weekly throughout the quarter, and distributed to the class in lecture on Tuesdays, and are due the following Tuesday in lecture.
+In general, homeworks will be assigned periodically throughout the quarter, and are due in lecture on the due date.
 
-There will be weekly labs assigned throughout the quarter. You will work on the labs during your assigned lab section, and most likely on your own time outside of your assigned lab section. Generally, labs will be due on Sundays @ 11:59pm (please be sure to check the due dates for all assignments on the course page and calendar).
+There will be labs assigned throughout the quarter. You will work on the labs during your assigned lab section, and most likely on your own time outside of your assigned lab section. Please be sure to check the due dates for all assignments on the course page and calendar.
 
 # Late work
 
 I will consider late submissions <strong>only</strong> for medical or family emergencies where documentation can be provided. This does not include overwhelming workload from other courses, scheduling conflicts, or vacation plans.
 
 * There will not be any make ups for examinations.
-* Four of the lowest homework scores will be dropped. Late homework submissions will not be accepted. However, even if you know you will not be able to submit a homework on time, I highly encourage you to complete it anyways since the homeworks will help prepare you for the examinations.
+* Two of the lowest homework scores will be dropped. Late homework submissions will not be accepted. However, even if you know you will not be able to submit a homework on time, I highly encourage you to complete it anyways since the homeworks will help prepare you for the examinations.
 * All labs must be submitted by the due date. Depending on the case, your TA may consider grading your lab with a late penalty (and usually for cases where the submission was done very soon after the deadline). However, this is not an official policy and you risk receiving a zero for a late lab submission. 
 
 
@@ -168,7 +102,7 @@ Personal concerns such as stress, anxiety, relationships, depression, cultural d
 Responsible scholarship
 -----------------------
 
-Honesty and integrity in all academic work is essential for a valuable educational experience.  The Office of Judicial Affairs has policies, tips, and resources for proper citation use, recognizing actions considered to be cheating or other forms of academic theft, and students’ responsibilities, available on their website at: http://judicialaffairs.sa.ucsb.edu.  Students are responsible for educating themselves on the policies and to abide by them.
+Honesty and integrity in all academic work is essential for a valuable educational experience.  The Office of Judicial Affairs has policies, tips, and resources for proper citation use, recognizing actions considered to be cheating or other forms of academic theft, and students’ responsibilities, available on their website at: http://judicialaffairs.sa.ucsb.edu. **Students are responsible for educating themselves on the policies and to abide by them.**
 
 Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
 
