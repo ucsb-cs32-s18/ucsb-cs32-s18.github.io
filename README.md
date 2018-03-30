@@ -1,2 +1,2 @@
-# ucsb-cs8-w18-wang.github.io
-Website for http://ucsb-cs8-w18-wang.github.io
+# ucsb-cs32-s18.github.io
+Website for http://ucsb-cs32-s18.github.io
