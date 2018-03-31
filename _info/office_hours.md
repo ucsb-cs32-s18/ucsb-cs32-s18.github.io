@@ -12,10 +12,10 @@ Richert Wang (HFH 1151)
 * or by appointment
 
 Sanjana Sahayaraj (Trailer 936 Room 103/104)
-* TBD
+* Fridays 1pm - 3pm
 
 Kun Wan (Trailer 936 Room 103/104)
-* TBD
+* Wednesdays 4pm - 5pm
 
-Xiyou Zhou (Trailer 936 Room 103/104)
-* TBD
+Yun Zhao (Trailer 936 Room 103/104)
+* Fridays 8am - 10am
