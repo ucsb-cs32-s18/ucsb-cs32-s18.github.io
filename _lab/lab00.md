@@ -48,7 +48,7 @@ It MIGHT, SOMETIMES, be possible to do SOME of the course work on your own compu
 
 But for some of the assignment, using CSIL is required. You might be able to access CSIL over the internet from your own machine rather than coming to CSIl in person.
 
-At the links below, we a "best effort" introduction to "how to do work
+At the links below, we provide a "best effort" introduction to "how to do work
 on your own computer", and then YOU ARE ON YOUR OWN.
 
 -   There is no guarantee that this will always work.
@@ -101,7 +101,7 @@ If you decide to work with a partner:
 * Review the following explanation on [pair programming and Falco's strong-style pair programming](https://tobeagile.com/2017/01/11/strong-style-pairing/).
 * Make an agreement to be respectful and work together to maximize your learning benefit.
 * There are many ways to do pair programming and we encourage you to:
-    * Try and find a partner that is of a similar skill level (or similar confidence) with Python programming.
+    * Try and find a partner that is of a similar skill level (or similar confidence) with C++ programming.
     * Try and find a style that works best for you and your partner.
         * Many pairs find that switching roles is best done once per "step".
         * Others may find switching roles after 10, 15, or 20 minute increments works better.
@@ -110,7 +110,7 @@ The following arrangement is <strong>NOT OK</strong>.
 
 * Student A and Student B form a pair.
 * Student A works on the lab alone on Wednesday night.
-* Student B obtains the work Student A did on Thursday night and works alone to finish the lab.
+* Student B obtains the work Student A did on Wednesday night and works alone to finish the lab on Thursday night.
 
 <strong>This is *NOT* how pair programming is done!</strong>
 
@@ -134,7 +134,7 @@ you need a reminder:
     mkdir ~/cs32/lab00
     cd ~/cs32/lab00
 
-You are responsible for knowing the `mkdir` and `cd` commands—though these should be review, so they will not be covered in detail. Questions about their use, however, appear on any exam in this course. So if, up to this point, you've just "followed the instructions" without really understanding what you are doing, the time for that has passed.
+You are responsible for knowing the `mkdir` and `cd` commands—though these should be review, so they will not be covered in detail. Questions about their use, however, can appear on any exam in this course. So if, up to this point, you've just "followed the instructions" without really understanding what you are doing, the time for that has passed.
 
 You are responsible for knowing the the "shell" is the program that you type Unix commands into—commands such as mkdir, cd, etc.
 
@@ -296,7 +296,7 @@ What do these two lines mean?
     want to <b>make</b>. We make this file by typing <b>make
     helloWorld</b> at the Unix command line. The file `helloWorld` is
     going to be our executable program.
--   The second part of the second line, the part <em>after</em> the
+-   The second part of the first line, the part <em>after</em> the
     colon, `helloWorld.o`, indicates a list of files that the target
     depends on. In this case, the executable program `helloWorld`
     depends only on the file `helloWorld.o`.
@@ -403,7 +403,7 @@ We have this chain of dependencies:
     a as the input file.
 
 After constructing the dependencies, the make program then looks to see
-which files already exist (or not), and what the time stamps are, and
+which files already exist (or not), and what the timestamps are, and
 executes the necessary commands in the order needed.
 
 That is why the result, when we make a change to helloWorld.cpp is that
