@@ -690,7 +690,7 @@ With those concepts down, we are ready (next week) to move on to both
 selection sort and insertion sort.
 
 When your code passes the tests, you are ready to try submitting it to
-submit.cs
+Gradescope.
 
 Step 6: Checking your work before submitting
 --------------------------------------------
