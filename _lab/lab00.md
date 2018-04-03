@@ -74,7 +74,7 @@ To join this organization, you need to do four things.
 
 (1) If you don't already have a github.com account, create one on the "free" plan.
 (2) If you don't already have your @umail.ucsb.edu email address associated with your github.com account, go to "settings", add that email, and confirm that email address.
-(3) Visit https://ucsb-cs-github-linker.herokuapp.com and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (https://github.com/ucsb-cs32-s18). 
+(3) Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (https://github.com/ucsb-cs32-s18). 
 (4) Click on the invitation link and accept it. You can also go straight to https://github.com/ucsb-cs32-s18 and accept the invitation there.
 
 If you are not familiar with git, I highly recommend learning this skill since this will be extremely valuable when collaborating on large software projects. More information on git can be found here: <https://ucsb-cs32.github.io/topics/git/>.
