@@ -101,7 +101,7 @@ If you decide to work with a partner:
 * Review the following explanation on [pair programming and Falco's strong-style pair programming](https://tobeagile.com/2017/01/11/strong-style-pairing/).
 * Make an agreement to be respectful and work together to maximize your learning benefit.
 * There are many ways to do pair programming and we encourage you to:
-    * Try and find a partner that is of a similar skill level (or similar confidence) with Python programming.
+    * Try and find a partner that is of a similar skill level (or similar confidence) with C++ programming.
     * Try and find a style that works best for you and your partner.
         * Many pairs find that switching roles is best done once per "step".
         * Others may find switching roles after 10, 15, or 20 minute increments works better.
