@@ -166,8 +166,8 @@ In the above example, we’ve seen vector functions that deal specifically with 
 
 ## Example (Showing different ways to index elements using iterators):
 ```
-vector<string>::iterator i = x.begin();
-cout << vector[4] << endl; 	// Batman
+vector<string>::iterator i = v2.begin();
+cout << v2[4] << endl; 		// Batman
 cout << i[4] << endl;		// Batman
 cout << *(i + 4) << endl;	// Batman
 ```
