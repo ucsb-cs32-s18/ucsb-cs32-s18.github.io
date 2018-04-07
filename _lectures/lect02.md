@@ -176,11 +176,11 @@ In order to erase items in the vector, there is an `erase` method that requires 
 
 ## Example of erasing elements
 ```
-// Removing 2nd element of the vector
+// Removing 2nd index of the vector
 // v2.erase(v2.begin() + 2); // remove "name"
 // printVector(v2);
 
-// Removing 1st and 2nd element - [1,3)
+// Removing 1st and 2nd index - [1,3)
 v2.erase(v2.begin() + 1, v2.begin() + 3);
 printVector(v2);
 ```
