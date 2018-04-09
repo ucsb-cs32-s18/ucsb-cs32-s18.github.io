@@ -196,7 +196,7 @@ If you already submitted something on Gradescope, it will take you to their "Aut
 
 For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests.
 
-**Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for Lab00.**
+**Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and check if you can see the uploaded files for Lab01.**
 
 # Grading Rubric 
 
