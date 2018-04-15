@@ -12,5 +12,3 @@ ready: true
 * Open lab hours are available on [CS 32 Open Lab Hours](/info/cs8_open_lab_hours/)
 * Homepage: [https://www.cs.ucsb.edu/~richert/](https://www.cs.ucsb.edu/~richert)
 
-
-## CS 32 Mentor profiles
