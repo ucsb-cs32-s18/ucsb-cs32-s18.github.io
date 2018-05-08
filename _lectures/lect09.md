@@ -152,7 +152,7 @@ Student* s1 = new Student("JD", 21, 1234567);
 Person* p2 = s1;		// OK.
 cout << p2->getName() << endl;
 cout << p2->getAge() << endl;
-cout << p2->getStudentId() << endl;
+cout << p2->getStudentId() << endl; // illegal
 ```
 
 # Destructors and Inheritance
