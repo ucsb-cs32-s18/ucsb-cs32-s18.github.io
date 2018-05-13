@@ -32,7 +32,9 @@ public:
 };
 
 string Student::toString() {
-	return “Student – ID: “ + to_string(id);
+	return "Student - name: " + getName() + ", age: " +
+ 	 to_string(getAge()) + ", " + to_string(studentId);
+
 }
 
 // main.cpp

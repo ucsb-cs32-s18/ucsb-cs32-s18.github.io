@@ -33,8 +33,11 @@ int main() {
 ```
 
 * Everything executes within the try block if execution is normal. Only when value < 0 do we throw something.
+	* Statements after throwing an exception within the try block is ignored, and code within the catch block of the exception type is executed.
+	* Regardless if an exception was thrown or not, execution resumes after the try/catch block.
 * We can literally throw any value (basic types, structs, classes, ...).
 * The code within the catch block is called the <i>exception handler</i>
+* 
 
 # Throwing / Catching Multiple Exceptions
 
@@ -89,8 +92,8 @@ int main() {
 # Inheritance and Exceptions
 
 * We can create a hierarchy of exceptions that inherit from a base class.
-* If an object is thrown and a catch block with on of its base classes is reached,
-	* then the exception handler within the base class' catch block is executed.
+* If an object is thrown and a catch block with one of its base classes is reached...
+	* then the code within the base class' catch block is executed.
 
 ## Example:
 
@@ -111,7 +114,7 @@ int main() {
 		cout << “Exception of type C caught.” << endl;
 	} catch (A) {
 		cout << “Exception of type A caught.” << endl;
-	} catch (B) { // maybe compiler error or warning?
+	} catch (B) {
 		cout << “Exception of type B caught.” << endl;
 	}
 	return 0;
