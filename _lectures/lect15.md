@@ -1,6 +1,6 @@
 ---
 num: "Lecture 15"
-desc: "Threads, Fork, Exec"
+desc: "Heaps"
 ready: true
-date: 2018-05-29 12:30:00.00-7:00
+date: 2018-05-31 12:30:00.00-7:00
 ---
