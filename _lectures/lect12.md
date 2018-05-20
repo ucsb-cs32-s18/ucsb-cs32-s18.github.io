@@ -7,6 +7,8 @@ date: 2018-05-17 12:30:00.00-7:00
 
 # Testing
 
+For additional details and context on Testing, refer to pages 147 - 214 in the CS32 Reader.
+
 ## Complete Test
 * Testing every possible path in every possible situation.
 * Complete tests are infeasible!
