@@ -142,11 +142,11 @@ private:
 	double side;
 };
 
-Rectangle::Square(double side) {
+Square::Square(double side) {
 	this->side = side;
 }
 
-double Rectangle::area() {
+double Square::area() {
 	cout << “In Square::area()” << endl;
 	return side * side;
 }
