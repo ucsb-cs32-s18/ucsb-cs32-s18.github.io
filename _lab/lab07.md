@@ -100,7 +100,7 @@ void destroy(T element) {
 }
 
 template <class T>
-	void destroy(T* element) {
+void destroy(T* element) {
 	// delete the pointer type
 	delete element;
 }
