@@ -33,6 +33,7 @@ Rooms
 Format
 - Mix of questions
 	- Short answer (briefly describe / define)
+	- Read code, write output
 	- Write some code
 	- True / False (if False, explain why)
 	- Fill in the blank
