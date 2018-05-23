@@ -41,7 +41,7 @@ Advanced topics in object-oriented computing. Topics include encapsulation, data
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
    * On most homework assignments you may collaborate with at most one other person (who must be named).
 * Attendance is required at all lectures and labs (discussion sections).
-  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absenses (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
+  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * <strong>You</strong> must turn in your homework in lecture the day that it is due.
 * We will use the [gradescope system](https://gradescope.com) this quarter. More instructions on gradescope will be given in lecture and lab assignments.
 * Any regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
