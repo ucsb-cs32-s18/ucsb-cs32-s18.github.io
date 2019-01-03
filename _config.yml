@@ -1,22 +1,17 @@
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
-
 course: "CS32"
-qtr: "W19"
-quarter: "Winter 2019"
-piazza_url: https://piazza.com/class/jqfzha6bpro23q
-gauchospace_course_page:
-gradescope_class_url: https://www.gradescope.com/courses/34776
+qtr: "S18"
+quarter: "Spring 2018"
+piazza_url: https://piazza.com/ucsb/spring2018/cmpsc32/home
+gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=23714
+gradescope_class_url: https://gradescope.com/courses/16782
 
-ta_list: "Kevin, Sirius"
-ta_list_full: "Kevin Burk, Sirius Zhang"
-mentors_list: "Chandler Forrest, Eric Freilafert, Junayed Naushad"
-discussion_section_times: "1pm, 2pm, 3pm, or 4pm"
+ta_list: "Sanjana, Kun, and Yun"
+ta_list_full: "Sanjana Sahayaraj, Kun Wan, and Yun Zhao"
+mentors_list: "Natasha Lee, Sean Shelton, and Joel Bagan"
+discussion_section_times: "12pm, 1pm, 2pm, or 3pm"
 
-github_url: https://github.com/ucsb-cs32/w19
+github_url: https://github.com/ucsb-cs32-s18/ucsb-cs32-s18.github.io
+#mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
 mentor_url:
 
 on_campus: http://proquest.safaribooksonline.com
@@ -25,20 +20,19 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 submit_cs_course:
 
 start_week: 1
-start_date: 2019-01-06 00:00:00.00-7:00
+start_date: 2018-04-01 00:00:00.00-7:00
 num_weeks: 10
 extra_exam_week: true
-sections: "1pm, 2pm, 3pm, 4pm"
+sections: "12pm, 1pm, 2pm, 3pm"
 
 cal_dates: >
   [
-  {"label":"First day of Spring Quarter", "date":"2019-01-07" },
-  {"label":"Univ Holiday: MLK Jr. Day", "date":"2019-01-21" },
-  {"label":"Univ Holiday: Presidents' Day", "date":"2019-02-18" },
-  {"label":"Last day of instruction", "date":"2019-03-15" },
-  {"label":"Finals Begin", "date":"2019-03-16" },
-  {"label":"Finals End", "date":"2018-03-22" },
-  {"label":"Last day to drop (11pm)", "date":"2019-02-04" }
+  {"label":"First day of Spring Quarter", "date":"2018-04-02" },
+  {"label":"Univ Holiday", "date":"2018-05-28" },
+  {"label":"Last day of instruction", "date":"2018-06-08" },
+  {"label":"Finals Begin", "date":"2018-06-09" },
+  {"label":"Finals End", "date":"2018-06-15" },
+  {"label":"Last day to drop (11pm)", "date":"2018-04-27" }
   ]
 
 

@@ -1,7 +1,3 @@
 source 'https://rubygems.org'
-ruby "2.5.1"
+ruby "2.4.0"
 gem 'github-pages'
-gem "jekyll-remote-theme"
-gem "jekyll-include-cache"
-
-
