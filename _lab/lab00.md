@@ -3,8 +3,8 @@ layout: lab
 num: lab00	
 ready: true
 desc: "Review of C++ basics, Makefiles, Gradescope"
-assigned: 2018-04-04 08:00:00.00-7
-due: 2018-04-08 23:59:00.00-7
+assigned: 2019-01-07 08:00:00.00-7
+due: 2019-01-14 23:59:00.00-7
 ---
 
 Goals
@@ -13,7 +13,7 @@ Goals
 By the time you have finished this lab, you should have demonstrated
 your ability to:
 
--   Join the Github Organization <https://github.com/ucsb-cs32-s18/>
+-   Join the Github Organization <https://github.com/ucsb-cs32-f18/>
 -   Use some basic Unix commands, and learn about new Unix commands
 -   Create a basic Makefile from scratch
 -   Do some simple C++ programming as review of C++ basics, and as
@@ -34,10 +34,9 @@ account:
 
 -   <https://accounts.engr.ucsb.edu/create>
 
-<strong>You should already know the following from CS16 / CS24. If not,
-alert your TA/instructor immediately:</strong>
+<strong>You should already know the following from CS16 / CS24. If not, alert your TA/instructor immediately:</strong>
 
--   How to login with your COE/CSIL account
+-   How to login with your CoE/CSIL account
 -   How to use the Linux computers in
     -   <strong>Phelps 3525</strong> (where your discussion sections are scheduled), and
     -   <strong>CSIL</strong>, the Computer Science Instructional Lab on the first floor of Harold Frank Hall (accessed through an outside door on the side facing the ocean.), which have an identical setup.
@@ -46,13 +45,13 @@ alert your TA/instructor immediately:</strong>
 
 It MIGHT, SOMETIMES, be possible to do SOME of the course work on your own computer that is connected to the Internet. In lecture, I will give VERY brief demonstrations of how to access the CSIL machines over the internet using Windows, Mac, and Linux.
 
-But for some of the assignment, using CSIL is required. You might be able to access CSIL over the internet from your own machine rather than coming to CSIl in person.
+But for some of the assignment, using CSIL is required. You might be able to access CSIL over the internet from your own machine rather than coming to CSIL in person.
 
 At the links below, we a "best effort" introduction to "how to do work
 on your own computer", and then YOU ARE ON YOUR OWN.
 
 -   There is no guarantee that this will always work.
--   There are two many different OS versions, flavors, configurations, etc .for us to know the ins and outs of every single one.
+-   There are two many different OS versions, flavors, configurations, etc.for us to know the ins and outs of every single one.
 -   If/when you run into difficulties there, WE CANNOT BE YOUR TECH SUPPORT. If you have a simple question and we know the answer, we'll tell you, but if you don't, our answer will be: "ok, then do your work in CSIL until you figure it out."
 
 So, please be aware:
@@ -68,14 +67,14 @@ If you are working from your own computer at home or in your dorm, i.e. in not i
 
 ### Step 0b: Adding yourself to our GitHub organization
 
-We will be using github.com in this course. We have created an organization on github.com <https://github.com/ucsb-cs32-s18> where you can create repositories (repos) for your assignments in this course. You may be familiar with GitHub organizations from CS 16 and 24 if you took it with Prof. Mirza. The advantage of creating private repos under that organization is that the course staff (your instructors, TAs and mentors) will be able to see your code and provide you with help, without you having to do anything special.
+We will be using github.com in this course. We have created an organization on github.com <https://github.com/ucsb-cs32-f18> where you can create repositories (repos) for your assignments in this course. You may be familiar with GitHub organizations from CS 16 and 24 if you took it with Prof. Mirza. The advantage of creating private repos under that organization is that the course staff (your instructors, TAs and mentors) will be able to see your code and provide you with help, without you having to do anything special.
 
 To join this organization, you need to do four things.
 
 (1) If you don't already have a github.com account, create one on the "free" plan.
 (2) If you don't already have your @umail.ucsb.edu email address associated with your github.com account, go to "settings", add that email, and confirm that email address.
-(3) Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (<https://github.com/ucsb-cs32-s18>). 
-(4) Click on the invitation link and accept it. You can also go straight to <https://github.com/ucsb-cs32-s18> and accept the invitation there.
+(3) Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (<https://github.com/ucsb-cs32-f18>). 
+(4) Click on the invitation link and accept it. You can also go straight to <https://github.com/ucsb-cs32-f18> and accept the invitation there.
 
 If you are not familiar with git, I highly recommend learning this skill since this will be extremely valuable when collaborating on large software projects. More information on git can be found here: <https://ucsb-cs32.github.io/topics/git/>.
 
@@ -86,7 +85,7 @@ If there are any issues or questions, please post them on Piazza and include any
 
 ### Step 0c: Creating your Gradescope account
 
-I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 32" in your Spring 2018 Courses.
+I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 32" in your Fall 2018 Courses.
 
 The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 32. 
 
@@ -127,8 +126,7 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 ### Step 0e: Create your \~/cs32/lab00 directory
 
 Create a \~/cs32/lab00 directory and make it your current directory. You
-should already know how to do this from previous courses, but in case
-you need a reminder:
+should already know how to do this from previous courses, but in case you need a reminder:
 
     mkdir ~/cs32
     mkdir ~/cs32/lab00
@@ -154,7 +152,7 @@ Note: If you get the error message:
 cp: target '/cs/student/youruserid/cs32/lab00' is not a directory
 ```
 
-then it probably means you didn't create a `~/cs32/lab00` directory yet. So do that first. The `*` symbol in this command is a "wildcard" —it means that we want all of the files from the source directory copy be copied into the destination directory namely `~/cs32/lab00.` After doing this command, if you `cd` into `~/cs32/lab00` and use the `ls` command, you should see several files in your `~/cs32/lab00` directory—the same ones that you see if you visit the link <http://cs.ucsb.edu/~richert/cs32/misc/lab00/> If so, you are ready to move on to the next step. If you don't see those files, go back through the instructions and make sure you didn't miss a step. If you still have trouble, ask your TA and/or mentor for assistance.
+then it probably means you didn't create a `~/cs32/lab00` directory yet. So do that first. The `*` symbol in this command is a "wildcard" — it means that we want all of the files from the source directory copy be copied into the destination directory namely `~/cs32/lab00.` After doing this command, if you `cd` into `~/cs32/lab00` and use the `ls` command, you should see several files in your `~/cs32/lab00` directory — the same ones that you see if you visit the link <http://cs.ucsb.edu/~richert/cs32/misc/lab00/> If so, you are ready to move on to the next step. If you don't see those files, go back through the instructions and make sure you didn't miss a step. If you still have trouble, ask your TA and/or mentor for assistance.
 
 Step 2: Learn how to learn about some basic Linux commands
 ----------------------------------------------------------
@@ -213,11 +211,11 @@ The first thing we should do is edit our Makefile using emacs or vim, or whateve
 
 On the first line of the file, put this, substituting your name (and that of your pair partner(s) if applicable, for YOUR NAME(S) HERE, as appropriate:
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
 Then, leave a blank line, and add the following two lines shown here, so that you end up with this as the first four lines of your Makefile:
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
     CXX=clang++
     # CXX=g++
@@ -280,7 +278,7 @@ Two important things:
 
 <!-- -->
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
     CXX=clang++
     # CXX=g++
@@ -359,7 +357,7 @@ output. Do that now. Notice it is different from before:
 \(5) Now, edit your helloWorld.cpp program, changing the program by
 adding a comment with your name(s) between the first two comments:
 
-    // helloWorld.cpp  R. Wang for UCSB CS32 S18
+    // helloWorld.cpp  R. Wang for UCSB CS32 F18
     // Edited by: YOUR NAME(S) HERE
     // minimal Hello World! program for testing Makefiles
 
@@ -787,4 +785,4 @@ Acknowledgements
 ================
 
 Some material in this lab is based on work originally written by Mike
-Costanzo and edited by Phill Conrad, and Richert Wang (S18). Other parts are original work of Phill Conrad.
+Costanzo and edited by Phill Conrad, and Richert Wang (F18). Other parts are original work of Phill Conrad.

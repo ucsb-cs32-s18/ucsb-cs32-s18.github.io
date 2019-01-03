@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 32, Spring 2018"
+title: "Syllabus, CMPSC 32, Winter 2019"
 layout: handout
 ready: true
 ---
@@ -7,13 +7,13 @@ ready: true
 Basic Facts
 -----------
 
-* **Course Web Site**: <https://ucsb-cs32-s18.github.io/>
+* **Course Web Site**: <https://ucsb-cs32.github.io/w19/>
 * **Instructor**:  [Richert Wang](http://www.cs.ucsb.edu/~richert)
-   * Email is richert@ucsb.edu, BUT please use [Piazza](https://piazza.com/ucsb/spring2018/cmpsc32/home) for course related communication.
-* **Lecture**: TuTh 12:30pm-1:45pm CHEM 1171, ATTENDANCE REQUIRED.
+   * Email is richert@ucsb.edu, BUT please use [Piazza](piazza.com/ucsb/winter2019/cs32w19/home) for course related communication.
+* **Lecture**: MW 09:30am-10:45am PSYCH 1924, ATTENDANCE REQUIRED.
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
-* **Lab** (50 minute lab section): Wednesdays 12pm, 1pm, 2pm, 3pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
-* **Office Hours**: Tuesday 11:00am - 12:00pm, Thursday 2:00pm - 3:00pm in HFH 1151
+* **Lab** (50 minute lab section): Wednesdays 1pm, 2pm, 3pm, 4pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Office Hours**: Monday 11:00am - 12:00pm, TBD... in HFH 1151
 
 # Required Resources
 
@@ -44,7 +44,7 @@ Advanced topics in object-oriented computing. Topics include encapsulation, data
   * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable. Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we will drop the lowest four grades from everyone's homework. This way, absences (or failure to submit homework) does not unduly penalize your grade unless it becomes excessive.
 * <strong>You</strong> must turn in your homework in lecture the day that it is due.
 * We will use the [gradescope system](https://gradescope.com) this quarter. More instructions on gradescope will be given in lecture and lab assignments.
-* Any regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
+* All regrade requests must be made on Gradescope and we will not consider a regrade request one week after the assignment grades are distributed back to students.
 
 You may NOT: 
 
